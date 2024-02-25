@@ -1,6 +1,12 @@
 import { Carde } from "./card";
-
+import { useState } from "react";
 export function Hero() {
+  const [isActive, setIsActive] = useState(false);
+
+  // Function to toggle the state value
+  const toggleClass = () => {
+    setIsActive(!isActive);
+  };
   return (
     <div className="bg-gray-100 ">
       <div className="max-w-screen-xl mx-auto p-4 lg:p-5">
@@ -25,11 +31,14 @@ export function Hero() {
               <div className="hidden md:flex items-center justify-center">
                 <a
                   href="#"
-                  className="mr-3 text-lg font-medium text-true-gray-800 hover:text-cool-gray-700 transition duration-150 ease-in-out"
+                  className={`${isActive ? "mr-3 px-6 py-3 rounded-3xl font-medium bg-gradient-to-b from-gray-900 to-black text-white outline-none focus:outline-none hover:shadow-md hover:from-true-gray-900 transition duration-200 ease-in-out": "mr-3 text-lg font-medium text-true-gray-800 hover:text-cool-gray-700 transition duration-150 ease-in-out"}`}
+                  onClick={toggleClass}
                 >
                   Login
                 </a>
-                <button className="px-6 py-3 rounded-3xl font-medium bg-gradient-to-b from-gray-900 to-black text-white outline-none focus:outline-none hover:shadow-md hover:from-true-gray-900 transition duration-200 ease-in-out">
+                <button className={`${isActive? "mr-3 text-lg font-medium text-true-gray-800 hover:text-cool-gray-700 transition duration-150 ease-in-out":"px-6 py-3 rounded-3xl font-medium bg-gradient-to-b from-gray-900 to-black text-white outline-none focus:outline-none hover:shadow-md hover:from-true-gray-900 transition duration-200 ease-in-out"}`} 
+                onClick={toggleClass}
+                >
                   Sign Up
                 </button>
               </div>

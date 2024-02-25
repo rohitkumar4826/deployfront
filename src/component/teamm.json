@@ -1,0 +1,43 @@
+[
+    {
+      "name": "Aditya Nayak",
+      "university": "IISER Mohali",
+      "imageSrc": "http://www.sciastra.com/new_admin/teams/files/Aditya%20Nayak_Biology.jpeg"
+    },
+    {
+      "name": "Mandar Tornekar",
+      "university": "GMC Dhule",
+      "imageSrc": "http://www.sciastra.com/new_admin/teams/files/Kedar_Tornekar1.jpg"
+    },
+    {
+      "name": "Sehasree Mohanta",
+      "university": "IACS",
+      "imageSrc": "http://www.sciastra.com/new_admin/teams/files/Sehasree_Mohanta.jpg"
+    },
+    {
+      "name": "Tanmay",
+      "university": "NISER",
+      "imageSrc": "http://www.sciastra.com/new_admin/teams/files/Screenshot(49).png"
+    },
+    {
+      "name": "Siddhart Bhatt",
+      "university": "IISER Thiruvananthapuram",
+      "imageSrc": "http://www.sciastra.com/new_admin/teams/files/Siddharth_Bhatt_physics.jpg"
+    },
+    {
+      "name": "Ripunjay Dwivedi",
+      "university": "CMI",
+      "imageSrc": "http://www.sciastra.com/new_admin/teams/files/Siddharth_Bhatt_physics.jpg"
+    },
+    {
+      "name": "Saumya Prakash",
+      "university": "NISER",
+      "imageSrc": "http://www.sciastra.com/new_admin/teams/files/Saumya_Sharma_mathematics.png"
+    },
+    {
+      "name": "Saumya Shisodiya",
+      "university": "HBTU Kanpur",
+      "imageSrc": "http://www.sciastra.com/new_admin/teams/files/Saumya_Shisodiya_mathematics.jpg"
+    }
+  ]
+  

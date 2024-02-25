@@ -1,0 +1,17 @@
+[
+    {
+        "imgurl":"https://www.sciastra.com/teams/dr_omkar.jpg",
+        "name":"Dr Omkar",
+        "detail":"Principal Project Scientist at Indian Institute of Technology, Madras"
+    },
+    {
+        "imgurl":"https://www.sciastra.com/teams/akhil_tripathi_niser.jpg",
+        "name":"Akhil Tripathi",
+        "detail":"Cofounder SciAstra, Mentor, Qualified NEST, Master&apos;s Student at NISER"        
+    },
+    {
+        "imgurl":"https://www.sciastra.com/teams/vivek_dwivedi_niser.jpg",
+        "name":"Vivek Dwivedi",
+        "detail":"Founder SciAstra, Mentor, Qualified NEST, JEE advanced, Mains, Master&apos;s Student at NISER"        
+    }
+]
